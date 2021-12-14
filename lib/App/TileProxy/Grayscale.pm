@@ -59,7 +59,7 @@ running the application with it:
 =item layers
 
 Hash reference with layers to offer. The key will be part of the tile URLs while
-the key is a regular tile URL template.
+the value is a regular tile URL template.
 
 =item forward_headers
 

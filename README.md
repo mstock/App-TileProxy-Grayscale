@@ -42,7 +42,7 @@ running the application with it:
 - layers
 
     Hash reference with layers to offer. The key will be part of the tile URLs while
-    the key is a regular tile URL template.
+    the value is a regular tile URL template.
 
 - forward\_headers
 
