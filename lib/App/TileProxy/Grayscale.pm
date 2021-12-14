@@ -41,6 +41,17 @@ Access tiles:
 This L<Plack|Plack>/L<PSGI|PSGI> application acts as a reverse proxy for tile
 servers which does a conversion of the served tiles to grayscale.
 
+=head2 Dependencies
+
+On Debian, the following command installs the required packages:
+
+	apt install libplack-perl libimage-magick-perl librouter-simple-perl
+
+L<Starman|Starman> can be installed as follows, but is only required when
+running the application with it:
+
+	apt install starman
+
 =head1 PARAMETERS
 
 =over
